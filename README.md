@@ -1,2 +1,0 @@
-# NightOwl
-Ferlencode HackNight
