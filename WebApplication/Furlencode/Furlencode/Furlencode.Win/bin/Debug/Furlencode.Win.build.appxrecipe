@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>STTLP-01201601</Machine>
+    <WindowsUser>Gaurav</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>49d8c8b4-b6f1-4634-b243-4029778f0a62</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\bin\Debug\Furlencode.Win.exe">
+      <PackagePath>Furlencode.Win.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Core\bin\Debug\Furlencode.Core.dll">
+      <PackagePath>Furlencode.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\packages\MvvmCross.Core.4.0.0\lib\win81\MvvmCross.Core.dll">
+      <PackagePath>MvvmCross.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\packages\MvvmCross.Binding.4.0.0\lib\win81\MvvmCross.Localization.dll">
+      <PackagePath>MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\packages\MvvmCross.Platform.4.0.0\lib\win81\MvvmCross.Platform.dll">
+      <PackagePath>MvvmCross.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\packages\MvvmCross.Platform.4.0.0\lib\win81\MvvmCross.Platform.WindowsCommon.dll">
+      <PackagePath>MvvmCross.Platform.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\packages\MvvmCross.Core.4.0.0\lib\win81\MvvmCross.WindowsCommon.dll">
+      <PackagePath>MvvmCross.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Core\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Square30x30Logo.scale-100.png">
+      <PackagePath>Assets\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Square30x30Logo.scale-140.png">
+      <PackagePath>Assets\Square30x30Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Square30x30Logo.scale-180.png">
+      <PackagePath>Assets\Square30x30Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Square310x310Logo.scale-140.png">
+      <PackagePath>Assets\Square310x310Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Square310x310Logo.scale-180.png">
+      <PackagePath>Assets\Square310x310Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Square310x310Logo.scale-80.png">
+      <PackagePath>Assets\Square310x310Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Square70x70Logo.scale-80.png">
+      <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\food.png">
+      <PackagePath>Images\food.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\FurlencodeLogo.png">
+      <PackagePath>Images\FurlencodeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\logo.png">
+      <PackagePath>Images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\Chai.jpg">
+      <PackagePath>Images\Chai.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\Chatpata.jpg">
+      <PackagePath>Images\Chatpata.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\Daru.jpg">
+      <PackagePath>Images\Daru.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\KuchBhi.jpg">
+      <PackagePath>Images\KuchBhi.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\Paan.jpg">
+      <PackagePath>Images\Paan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\South.jpg">
+      <PackagePath>Images\South.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\Sutta.jpg">
+      <PackagePath>Images\Sutta.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Images\Thanda.jpg">
+      <PackagePath>Images\Thanda.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\ToDo-MvvmCross\_ Windows Store UI.txt">
+      <PackagePath>ToDo-MvvmCross\_ Windows Store UI.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\bin\Debug\Furlencode.Win.xr.xml">
+      <PackagePath>Furlencode.Win.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\bin\Debug\Views\FirstView.xbf">
+      <PackagePath>Views\FirstView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\bin\Debug\Views\LoginView.xbf">
+      <PackagePath>Views\LoginView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Core\FodyWeavers.xml">
+      <PackagePath>Furlencode.Core\FodyWeavers.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

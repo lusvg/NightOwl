@@ -1,0 +1,125 @@
+﻿@using System.Configuration;
+@{
+    String path = ConfigurationManager.AppSettings["BaseUrl"];
+}
+@{
+    ViewBag.Title = "AddList";
+}
+
+<div class="container" style="position:relative;top:180px;margin-bottom:25px;">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 style="color:#2A2C75;" class="panel-title">Add Store Details</h3>
+                </div>
+                <br />
+                <div class="row" style="margin:0;">
+                    <label class="control-label col-sm-2" style="color:#FF9D4F;">Shop Name</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="shopName"/>
+                    </div>
+                </div>
+                <br />
+                <div class="row" style="margin:0;">
+                    <label class="control-label col-sm-2" style="color:#FF9D4F;">Area/Street</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="Area" required />
+                    </div>
+                </div>
+                <br />
+                <div class="row" style="margin:0;">
+                    <label class="control-label col-sm-2" style="color:#FF9D4F;">Category</label>
+                    <div class="col-sm-4">
+                        <select id="category">
+                            <option value="Chai">Chai</option>
+                            <option value="Sutta">Sutta</option>
+                            <option value="Daaru ka Theka">Daaru ka Theka</option>
+                            <option value="Paan">Paan</option>
+                            <option value="Kuch Thanda">Kuch Thanda</option>
+                            <option value="Idli Dosa">Idli Dosa</option>
+                            <option value="Chatpata">Chatpata</option>
+                            <option value="Kuch bhi khila do yaar">Kuch bhi khila do yaar</option>
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <div class="row" style="margin:0;">
+                    <label class="control-label col-sm-2" style="color:#FF9D4F;">Opened</label>
+                    <div class="col-sm-3">
+                        <input type="checkbox" checked="checked" id="isOpen"/>
+                        <label class="control-label">Yes</label>
+                    </div>
+
+                </div>
+                <br />
+                <div class="row">
+                    <center><button class="btn btn-blue" type="button" data-toggle="modal" data-target="#submitAlert" id="submitDetail">Submit</button></center>
+                </div>
+                <br />
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="submitAlert" tabindex="-1" role="dialog" aria-labelledby="submitAlertLabel" aria-hidden="true">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header" style="background:#535253;color:#fff;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="color:#fff;">&times;</span></button>
+                    <h4 class="modal-title" id="submitLabel">Success</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <h4 class="col-sm-10">Store added successfully</h4>
+                        <div class="col-sm-2">
+                            <a class="btn btn-blue" href="@path/localhost/Home/Index">Ok</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#submitDetail").click(function () {
+            $.ajax({
+                type: "POST",
+                url: '@path' + "/localhost/Home/AddUser",
+                data: { Name: $("#shopName").val(), Address: $("#Area").val(), Category: $("#category").val(), IsOpen: $("#isOpen").val() == "on" ? true : false },
+                success: function (response) {
+                    if (response.result != "") {
+                        $('.login .panel').slideToggle();
+                        $("#logout").show();
+                        $("#login").hide();
+                        $("#store").show();
+                    }
+                }
+            });
+        });
+
+$('#nav-icon3').click(function(){
+$(this).toggleClass('open');
+});
+    $(document).on("shown.bs.dropdown", ".dropdown", function () {
+        debugger;
+    // calculate the required sizes, spaces
+    var $ul = $(this).children(".dropdown-menu");
+    var $button = $(this).children(".dropdown-toggle");
+    var ulOffset = $ul.offset();
+    // how much space would be left on the top if the dropdown opened that direction
+    var spaceUp = (ulOffset.top - $button.height() - $ul.height()) - $(window).scrollTop();
+    // how much space is left at the bottom
+    var spaceDown = $(window).scrollTop() + $(window).height() - (ulOffset.top + $ul.height());
+    // switch to dropup only if there is no space at the bottom AND there is space at the top, or there isn't either but it would be still better fit
+    if (spaceDown < 50 && (spaceUp >= 0 || spaceUp > spaceDown))
+      $(this).addClass("dropup");
+}).on("hidden.bs.dropdown", ".dropdown", function() {
+    // always reset after close
+    $(this).removeClass("dropup");
+});
+});
+</script>

@@ -1,0 +1,2 @@
+C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Core\Furlencode.Core.csproj;neutral
+C:\Users\Gaurav\Desktop\Furlencode\Furlencode\Furlencode.Win\Furlencode.Win.csproj;neutral

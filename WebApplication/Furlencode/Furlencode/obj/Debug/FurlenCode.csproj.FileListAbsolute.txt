@@ -1,0 +1,163 @@
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\ApplicationInsights.config
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\csc.exe
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\System.Collections.Immutable.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\vbc.exe
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\VBCSCompiler.exe
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\roslyn\VBCSCompiler.exe.config
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\FurlenCode.dll.config
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\FurlenCode.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\FurlenCode.pdb
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Antlr3.Runtime.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\EntityFramework.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\EntityFramework.SqlServer.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.Web.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.WindowsServer.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.ApplicationInsights.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Google.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Newtonsoft.Json.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Owin.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.Helpers.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.Mvc.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.Optimization.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.Razor.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.WebPages.Deployment.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.WebPages.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.WebPages.Razor.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\WebGrease.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.Web.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AI.WindowsServer.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.ApplicationInsights.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.Helpers.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.Mvc.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.Optimization.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.Razor.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.WebPages.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.WebPages.Deployment.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\System.Web.WebPages.Razor.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Antlr3.Runtime.pdb
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Newtonsoft.Json.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\EntityFramework.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\EntityFramework.SqlServer.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Google.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\obj\Debug\FurlenCode.dll
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\obj\Debug\FurlenCode.pdb
+c:\users\dj\documents\visual studio 2015\Projects\FurlenCode\FurlenCode\obj\Debug\FurlenCode.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\ApplicationInsights.config
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\csc.exe
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\System.Collections.Immutable.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\System.Reflection.Metadata.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\vbc.exe
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\VBCSCompiler.exe
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\roslyn\VBCSCompiler.exe.config
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\FurlenCode.dll.config
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\FurlenCode.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\FurlenCode.pdb
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\EntityFramework.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.Agent.Intercept.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.DependencyCollector.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.Web.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.WindowsServer.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.ApplicationInsights.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.Core.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Cookies.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Facebook.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Google.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.OAuth.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Twitter.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Owin.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.Helpers.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.Mvc.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.Razor.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.WebPages.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\WebGrease.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.DependencyCollector.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.Web.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AI.WindowsServer.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.ApplicationInsights.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.Optimization.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Antlr3.Runtime.pdb
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\EntityFramework.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.Core.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Facebook.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Cookies.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.OAuth.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Google.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.Twitter.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\obj\Debug\FurlenCode.dll
+C:\inetpub\wwwroot\FurlenCode\FurlenCode\obj\Debug\FurlenCode.pdb

@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+@using System.Configuration;
+<html>
+<head>
+    @{
+        String path = ConfigurationManager.AppSettings["BaseUrl"];
+    }
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script type="text/javascript" src="@path/localhost/Scripts/jquery-1.11.0.js"></script> 
+    <script type = "text/javascript" src = "@path/localhost/Scripts/bootstrap.min.js" ></script>
+    <script type = "text/javascript" src = "@path/localhost/Scripts/modernizr.custom.js" ></script>
+    <script src = "@path/localhost/Scripts/snap.svg-min.js" ></script>
+    <script src = "@path/localhost/Scripts/classie.js" ></script>
+    <link href = 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel = 'stylesheet' type = 'text/css' />
+    <link href = 'https://fonts.googleapis.com/css?family=Pacifico' rel = 'stylesheet' type = 'text/css' />
+    <link rel = "icon" href = "@path/localhost/images/favicon.ico" />
+    <link href = "@path/localhost/Content/bootstrap.min.css" rel = "stylesheet" />
+    <link href = "@path/localhost/Content/style.css" rel = "stylesheet" />
+    <link rel = "stylesheet" type = "text/css" href = "@path/localhost/Content/component.css" />
+    <link rel = "stylesheet" type = "text/css" href = "@path/localhost/Content/default.css" />
+
+    <script>
+        $(document).ready(function () {
+            $('#nav-icon3').click(function () {
+                $(this).toggleClass('open');
+            });
+
+            $("#submit").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: '@path' + "/localhost/Home/UserLogin",
+                    data: { UserName: $("#UserName").val(), Password: $("#Password").val() },
+                    success: function (response) {
+                        if (response.result != "") {
+                            $('.loginDiv').slideToggle();
+                            $("#logout").show();
+                            $("#login").hide();
+                            $("#store").show();
+                        }
+                    }
+                });
+            });
+
+            $("#logout").click(function () {
+                $("#store").hide();
+                $("#logout").hide();
+                $("#login").show();
+            });
+        });
+    </script>
+
+</head>
+<body class="cbp-spmenu-push">
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+        <a href="@path/localhost/Home/Index" style="margin-top: 65px;"><span class="glyphicon glyphicon-home" style="margin-right: 10px;"></span> Home</a>
+        @if(Convert.ToString(Session["LoggedIn"]) != null && Convert.ToString(Session["LoggedIn"]) != "")
+        {
+            <a href="@path/localhost/Home/AddList"><span class="glyphicon glyphicon-cutlery" style="margin-right: 10px;"></span> Add Store</a>
+        }
+        else
+        {
+            <a href="@path/localhost/Home/AddList" style="display:none;" id="store"><span class="glyphicon glyphicon-cutlery" style="margin-right: 10px;"></span> Add Store</a> 
+        }
+        @*@Html.ActionLink("Add Services", "AddList", "Home","", new { @class = "glyphicon glyphicon-cutlery", @style = "margin-right: 10px;" })*@
+        <a href="#"><span class="glyphicon glyphicon-user" style="margin-right: 10px;"></span> About Us</a>
+        <a href="#"><span class="glyphicon glyphicon-phone" style="margin-right: 10px;"></span> Contact Us</a>
+    </nav>
+    <button id="showLeft" class="btn">
+        <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </button>
+
+
+    <div id="horizontal-scroll"></div>
+    <div id="overlay"></div>
+
+    <div class="logo">
+        <p>Night</p>
+        <span>
+            <img src="@path/localhost/Images/logo.png" />
+        </span>
+        <p style="color: #F3F3F3;">Owls</p>
+    </div>
+
+    <div class="login">
+        <h4 style="display:none;" id="logout">LOGOUT</h4>
+        <h4 onclick="$('.loginDiv').slideToggle();" id="login">LOGIN</h4>
+        <div class="panel panel-default loginDiv">
+            <div class="panel-body">
+                <div class="row">
+                    <input type="text" class="form-control" placeholder="Username" id="UserName"/>
+                </div>
+                <br />
+                <div class="row">
+                    <input type="text" class="form-control" placeholder="Password" id="Password"/>
+                </div>
+                <br />
+                <div class="row">
+                    <center><button class="btn btn-blue" type="button" id="submit">Submit</button></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="position: relative;top: 140px;">
+        <div class="col-lg-2"></div>
+        <p class="col-lg-8" style="color:#f3f3f3;font-size:24px;">Feeling hungry at Midnight???</p>
+    </div>
+
+    <div class="row" style="position: relative;top: 140px;">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search your favorite snack stores here..." style="height: 50px;border: 3px solid #2A2C75;color:#d3531a;" />
+                <span class="input-group-btn">
+                    <button class="btn btn-blue" type="button" style="height: 50px;"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    
+    <nav class="navbar navbar-fixed navbar-inverse footer" style="margin: 0;min-height: 20px;height: 30px;border-radius: 0;">
+        <div class="container" style="text-align:center;">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="index.html" class="footer_link">www.nightowls.com</a><span class="footer_copyright">&copy; 2016</span></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li style="display: inline;"><a href="#" class="footer_link">ABOUT US</a></li>
+                <li style="display: inline;"><a href="#" class="footer_link" style="margin:0 10px;">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>	
+</body>
+<script>
+
+var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+showLeft = document.getElementById( 'showLeft' ),
+body = document.body;
+showLeft.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeft' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showLeft' ) {
+					classie.toggle( showLeft, 'disabled' );
+				}
+			}
+(function() {
+
+				function init() {
+					var speed = 300,
+						easing = mina.backout;
+
+					[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+						var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+							pathConfig = {
+								from : path.attr( 'd' ),
+								to : el.getAttribute( 'data-path-hover' )
+							};
+
+						el.addEventListener( 'mouseenter', function() {
+							path.animate( { 'path' : pathConfig.to }, speed, easing );
+						} );
+
+						el.addEventListener( 'mouseleave', function() {
+							path.animate( { 'path' : pathConfig.from }, speed, easing );
+						} );
+					} );
+				}
+
+				init();
+
+			})();
+</script>
+</html>

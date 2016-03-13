@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\gaurav\desktop\furlencode\furlencode\furlencode.win\obj\debug\intermediatexaml\furlencode.win.exe" HashGuid="eb05b557-07e9-501c-6481-b14c92f6679e" />
+    <ReferenceAssembly PathName="c:\users\gaurav\desktop\furlencode\furlencode\furlencode.core\bin\debug\furlencode.core.dll" HashGuid="45ebe0af-d09d-2cce-50db-0709777c16bf" />
+    <ReferenceAssembly PathName="c:\users\gaurav\desktop\furlencode\furlencode\packages\mvvmcross.core.4.0.0\lib\win81\mvvmcross.core.dll" HashGuid="093439d9-5e68-bf57-a699-b77c727230f0" />
+    <ReferenceAssembly PathName="c:\users\gaurav\desktop\furlencode\furlencode\packages\mvvmcross.binding.4.0.0\lib\win81\mvvmcross.localization.dll" HashGuid="838f47e1-fa5b-4669-7ad9-be1e2cbb7357" />
+    <ReferenceAssembly PathName="c:\users\gaurav\desktop\furlencode\furlencode\packages\mvvmcross.platform.4.0.0\lib\win81\mvvmcross.platform.dll" HashGuid="f34616af-7bd1-532a-6e5b-dd29090f38bb" />
+    <ReferenceAssembly PathName="c:\users\gaurav\desktop\furlencode\furlencode\packages\mvvmcross.platform.4.0.0\lib\win81\mvvmcross.platform.windowscommon.dll" HashGuid="0d2d3742-6c74-6fa4-8128-2f7a3fda78ad" />
+    <ReferenceAssembly PathName="c:\users\gaurav\desktop\furlencode\furlencode\packages\mvvmcross.core.4.0.0\lib\win81\mvvmcross.windowscommon.dll" HashGuid="67493d55-766c-65f2-5c70-60a35357738f" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

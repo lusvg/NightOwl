@@ -1,0 +1,449 @@
+body {
+	font-size: 13px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #C3C3C3 !important;
+}
+#horizontal-scroll {
+    width: 100%;
+	position:absolute;
+	top:0;
+    height: 355px;
+    background: url(../images/food.png) repeat-x center;
+    -webkit-animation: backgroundScroll 20s linear infinite;
+    animation: backgroundScroll 20s linear infinite;
+	
+}
+#overlay
+{
+	position: absolute;
+    background: rgba(239, 61, 61, 0.28);
+    width: 100%;
+    height: 300px;
+    top: 0;
+}
+.footer
+{
+  border-radius: 0;
+  margin-bottom: 0;  
+  margin-top:10px;
+  background: #262426;
+  border-top: 2px solid #E67E2C;
+  min-height:inherit;
+  position:fixed;
+  width:100%;
+  bottom:0;
+  z-index: 9999;
+  left:0;
+}
+.footer_link
+{
+color:#fff !important;
+font-size:12px;
+display:inline-block !important;
+padding:5px !important;
+}
+.footer_copyright
+{
+display:inline-block;
+color:#fff;
+font-size:12px;
+line-height:20px;
+}
+.modal-dialog
+{
+top:150px;	
+}
+.logo
+{
+	position: absolute;
+    top: 20px;
+    left: 40%;
+}
+.logo p
+{
+	font-family: 'Pacifico', cursive;
+    display: inline-block;
+    font-size: 30px;
+    padding: 9px;
+    color: #2A2C75;
+}
+.logo span
+{
+    background: rgba(206, 197, 197, 0.58);
+    border-radius: 50%;
+    padding: 58px 5px 60px 8px;
+}
+.logo img
+{
+    background: rgba(255, 255, 255, 0.64);
+    border-radius: 50%;
+    padding: 15px 10px;
+    width: 130px;
+}
+.btn-blue
+{
+	background:#2A2C75;
+	color:#fff !important;	
+	outline:none;
+}
+.login
+{
+	position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 9;
+}
+.login h4
+{
+	color:#2A2C75;
+	text-align:right;
+	cursor:pointer;
+}
+.loginDiv
+{
+    padding: 10px 15px 0;
+    width: 300px;
+	display:none;
+}
+.loginDiv:before {
+    top: 16px;
+    right: 17px;
+    border: 12px solid;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: transparent transparent #fff transparent;
+}
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+ 
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+#nav-icon3 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: 5px auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  z-index: 9999;
+  left: 20px;
+  top: 10px;
+}
+
+#nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #d3531a;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 10px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 20px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+.separator
+{
+background: #fff;border-top: solid 1px #B5B5B5;opacity: 0.4;margin:5px -5px 0px;height: 1px;clear: both;
+}
+.thumb_store
+{   
+    background: #2A2C75;
+    color: #efefef;
+	padding:10px;
+}
+.thumb_store h3
+{
+	color: #F89F59;
+	margin-top:0;
+}
+.thumb_store p
+{
+    display: inline-block;
+    font-size: 12px;	
+}
+.grid {
+	margin: 200px auto 120px;
+	max-width: 1000px;
+	width: 90%;
+}
+
+.grid a {
+	float: left;
+	max-width: 250px;
+	width: 24%;
+	color: #333;
+	background: #2A2C75;
+	margin-top:4px;
+}
+
+.grid a:nth-child(odd) {
+	margin: 30px 4px -30px 4px;
+}
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 5px;
+	background: #333;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.7;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	height:275px;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.grid figcaption h2 {
+	margin: 0 0 20px 0;
+    color: #FF9D4F;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 100%;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.grid figcaption p {
+	padding: 0 20px;
+	color: #aaa;
+	font-weight: 300;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+.grid svg path {
+	fill: #fff;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+}
+.demo-3 .grid figure button {
+	top: 50%;
+	left: 50%;
+	border: 3px solid #fff;
+	background: transparent;
+	color: #fff;
+	opacity: 0;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(0.25);
+	transform: translateY(-50%) translateX(-50%) scale(0.25);
+}
+.demo-3 .grid a:hover figure button {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%) scale(1);
+	transform: translateY(-50%) translateX(-50%) scale(1);
+}
+.demo-3 .grid figcaption h2,
+.demo-3 .grid figcaption p {
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1); /* older webkit */
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
+	timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
+}
+.demo-3 .grid a:hover figcaption p {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+}
+.demo-3 .grid a:hover figcaption p {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+}
+
+.demo-3 body {
+	background: #52be7f;
+}
+
+.demo-3 .grid figcaption h2 {
+	color: #52be7f;
+}
+
+.demo-3 .grid a:hover figcaption h2 {
+	-webkit-transform: translateY(5px);
+	transform: translateY(5px);
+}
+
+/* Media Queries */
+/* Let's redefine the width of each anchor and the margins */
+
+@media screen and (max-width: 58em) {
+	.grid a {
+		width: 33.333%;
+	}
+
+	.grid a:nth-child(odd) {
+		margin: 0;
+	}
+
+	.grid a:nth-child(3n-1) {
+		margin: 30px 0 -30px 0;
+	}
+}
+
+@media screen and (max-width: 45em) {
+	.grid {
+		max-width: 500px;
+	}
+
+	.grid a {
+		width: 50%;
+	}
+
+	.grid a:nth-child(3n-1) {
+		margin: 4px 0;
+	}
+
+	.grid a:nth-child(even) {
+		margin: 30px 0 -30px 0;
+	}
+
+
+	.grid figcaption h2 {
+		margin-bottom: 0px;
+		-webkit-transform: translateY(30px);
+		transform: translateY(30px);
+	}
+
+	.grid figcaption p {
+		margin: 0;
+		padding: 0 10px;
+	}
+}
+
+@media screen and (max-width: 27em) {
+	.grid {
+		max-width: 250px;
+	}
+
+	.grid a {
+		width: 100%;
+	}
+
+	.grid a:nth-child(even) {
+		margin: 4px 0;
+	}
+	.logo
+	{
+		top: 70px;
+        left: -1%;
+	}
+}
